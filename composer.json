@@ -1,0 +1,29 @@
+{
+    "name": "andikamc/wade",
+    "description": "Laravel Admin Package",
+    "keywords": ["laravel", "admin", "panel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andika Muhammad Cahya",
+            "email": "andika@wannadream.tech"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "WD\\Wade\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wd\\Wade\\VoyagerServiceProvider"
+            ]
+        }
+    }
+}

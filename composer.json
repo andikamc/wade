@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wd\\Wade\\WadeServiceProvider"
+                "WD\\Wade\\VoyagerServiceProvider"
             ]
         }
     }
